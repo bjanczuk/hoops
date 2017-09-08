@@ -1,0 +1,516 @@
+fieldset {
+    width: 200px;
+    float: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  margin: auto;
+  width: 94%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.1vw;
+}
+
+.table_header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22.5px;
+}
+
+th, td {
+  padding-right: 1.2%;
+  padding-left: 0.5%;
+}
+
+table.tablesorter thead tr .header {
+  background-image: url(../tablesorter/blue/bg.gif);
+  background-repeat: no-repeat;
+  background-position: center right;
+  cursor: pointer;
+}
+
+th.headerSortUp, th.headerSortDown { 
+    background-color: yellow; 
+}
+
+td {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding-bottom: 3px;
+}
+
+.welcome {
+  position: fixed;
+  left: 50%;
+}
+
+.team_roster {
+  width: 85%;
+  margin-left: 4.5%;
+  margin-right: auto;
+}
+
+#roster_label {
+  text-align: center;
+  font: 350% "Passion One";
+}
+
+.headshot {
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headshot_in_carousel {
+  height: 425px;
+}
+
+.no_name_headshot {
+  margin-left: 35px;
+  width: 120%;
+}
+
+.player_name {
+  text-align: center;
+}
+
+.player_in_carousel {
+  font: 85% "Krona One";
+  margin-left: 5%;
+  margin-right: 5%;
+
+  display: inline-block;
+}
+
+.logo {
+  position: relative;
+  top: 25px;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 82vh;
+}
+
+.team_info {
+  background: white;
+}
+
+.arena {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95vw;
+}
+
+.arena_header {
+  font: 350% "Passion One";
+  text-align: center;
+}
+
+#arena_name_text, #roster_label {
+  text-decoration: underline;
+}
+
+.arena_description {
+  font: 20px "Karla";
+  text-align: center;
+}
+
+.autocomplete-suggestions {
+  border: 1px
+  solid #999;
+  background: #fff;
+  cursor: default;
+  overflow: auto;
+}
+
+.autocomplete-suggestion {
+  padding: 10px 5px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #DAA520;
+}
+
+.autocomplete-selected { background: #f0f0f0; }
+
+.statButtonsTables {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.statButtonsTables table {
+  position: relative;
+  bottom: 10px;
+}
+
+.statButtons {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.no_table {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.3vw;
+}
+
+#playoff_no_table {
+  display: none;
+}
+
+#rs_advanced, #playoffs_regular, #playoffs_advanced {
+  display: none;
+}
+
+#rs_advanced_d, #playoffs_regular_d, #playoffs_advanced_d {
+  display: none;
+}
+
+#searchfield {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#searchfield form {
+  display: inline-block;
+  background: #eeefed;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px 0 0 0;
+}
+#searchfield form .biginput {
+  width: 35vw;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  color: #aeaeae;
+  font-weight:normal;
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#searchfield form .biginput:focus {
+  color: #858585;
+}
+
+.headshot_info {
+  position: relative;
+
+  top: 100px;
+
+  height: 300px;
+  width: 750px;
+  min-width: 750px;
+
+  margin: auto;
+
+  color: white;
+
+  overflow: hidden;
+}
+
+.headshot_info a:hover {
+  text-decoration: underline;
+}
+
+.headshot_div, .player_info_div {
+  width: 40%;
+}
+
+.headshot_div {
+  position: relative;
+  float: left;
+
+  width: 50%;
+  min-width: 50%;
+}
+
+.name_header {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+#name_header {
+  position: relative;
+  font: 4vw "Rubik Mono One";
+  margin: 0 auto;
+}
+
+.player_headshot {
+  height: 300px;
+  position: relative;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  left: -15px;
+}
+
+.info_line {
+  position: relative;
+  font: 160% 'PT Sans';
+}
+
+.category {
+  font-weight: bold; 
+}
+
+.hidden {
+  display: none;
+}
+
+.team_background_top {
+  position: relative;
+  top: 50px;
+  height: 700px;
+}
+
+#team_header_background {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  top: 40px;
+}
+
+.atlanta_hawks {
+  background-image: url('../Images/Teams/Backgrounds/atlanta_hawks.jpg');
+  background-size: 100%;
+}
+
+.boston_celtics {
+  background-image: url('../Images/Teams/Backgrounds/boston_celtics.jpg');
+  background-size: 100%;
+}
+
+.brooklyn_nets {
+  background-image: url('../Images/Teams/Backgrounds/brooklyn_nets.jpg');
+  background-size: 105% 100%;
+}
+
+.charlotte_hornets {
+  background-image: url('../Images/Teams/Backgrounds/charlotte_hornets.jpg');
+  background-size: 100%;
+}
+
+.chicago_bulls {
+  background-image: url('../Images/Teams/Backgrounds/chicago_bulls.jpg');
+  background-size: 100%;
+}
+
+.cleveland_cavaliers {
+  background-image: url('../Images/Teams/Backgrounds/cleveland_cavaliers.jpg');
+  background-size: 110%;
+}
+
+.dallas_mavericks {
+  background-image: url('../Images/Teams/Backgrounds/dallas_mavericks.jpg');
+  background-size: 110%;
+}
+
+.denver_nuggets {
+  background-image: url('../Images/Teams/Backgrounds/denver_nuggets.jpg');
+  background-size: 100%;
+}
+
+.detroit_pistons {
+  background-image: url('../Images/Teams/Backgrounds/detroit_pistons.jpg');
+  background-size: 100%;
+}
+
+.golden_state_warriors {
+  background-image: url('../Images/Teams/Backgrounds/golden_state_warriors.jpg');
+  background-size: 100%;
+}
+
+.houston_rockets {
+  background-image: url('../Images/Teams/Backgrounds/houston_rockets.jpg');
+  background-size: 100% 102%;
+}
+
+.indiana_pacers {
+  background-image: url('../Images/Teams/Backgrounds/indiana_pacers.jpg');
+  background-size: 100% 100%;
+}
+
+.los_angeles_clippers {
+  background-image: url('../Images/Teams/Backgrounds/los_angeles_clippers.jpg');
+  background-size: 100%;
+}
+
+.los_angeles_lakers {
+  background-image: url('../Images/Teams/Backgrounds/los_angeles_lakers.jpg');
+  background-size: 100% 100%;
+}
+
+.memphis_grizzlies {
+  background-image: url('../Images/Teams/Backgrounds/memphis_grizzlies.jpg');
+  background-size: 100% 140%;
+}
+
+.miami_heat {
+  background-image: url('../Images/Teams/Backgrounds/miami_heat.jpg');
+  background-size: 100% 140%;
+}
+
+.milwaukee_bucks {
+  background-image: url('../Images/Teams/Backgrounds/milwaukee_bucks.jpg');
+  background-size: 100% 130%;
+}
+
+.minnesota_timberwolves {
+  background-image: url('../Images/Teams/Backgrounds/minnesota_timberwolves.jpg');
+  background-size: 110% 130%;
+}
+
+
+.new_orleans_pelicans {
+  background-image: url('../Images/Teams/Backgrounds/new_orleans_pelicans.jpg');
+  background-size: 100%;
+}
+
+.new_york_knicks {
+  background-image: url('../Images/Teams/Backgrounds/new_york_knicks.jpg');
+  background-size: 100%;
+}
+
+.oklahoma_city_thunder {
+  background-image: url('../Images/Teams/Backgrounds/oklahoma_city_thunder.jpg');
+  background-size: 100%;
+}
+
+.orlando_magic {
+  background-image: url('../Images/Teams/Backgrounds/orlando_magic.jpg');
+  background-size: 100% 120%;
+}
+
+.philadelphia_76ers {
+  background-image: url('../Images/Teams/Backgrounds/philadelphia_76ers.jpg');
+  background-size: 100% 115%;
+}
+
+
+.phoenix_suns {
+  background-image: url('../Images/Teams/Backgrounds/phoenix_suns.jpg');
+  background-size: 100% 100%;
+}
+
+.portland_trail_blazers {
+  background-image: url('../Images/Teams/Backgrounds/portland_trail_blazers.jpg');
+  background-size: 102% 102%;
+}
+
+.sacramento_kings {
+  background-image: url('../Images/Teams/Backgrounds/sacramento_kings.jpg');
+  background-size: 100% 110%;
+}
+
+.san_antonio_spurs {
+  background-image: url('../Images/Teams/Backgrounds/san_antonio_spurs.jpg');
+  background-size: 100%;
+}
+
+.toronto_raptors {
+  background-image: url('../Images/Teams/Backgrounds/toronto_raptors.jpg');
+  background-size: 100% 100%;
+}
+
+.utah_jazz {
+  background-image: url('../Images/Teams/Backgrounds/utah_jazz.jpg');
+  background-size: 100% 120%;
+}
+
+.washington_wizards {
+  background-image: url('../Images/Teams/Backgrounds/washington_wizards.jpg');
+  background-size: 100% 100%;
+}
+
+#header {
+  position: absolute;
+  width: 101%;
+  left: -1%;
+  top: -5px;
+  height: 60px;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.header_chunk {
+  height: 60px;
+}
+
+#search_header {
+  display: inline-block;
+  width: 40%;
+}
+
+.header_filter_graph {
+  width: 29.5%;
+  text-align: center;
+  line-height: 75px;
+}
+
+.header_link_text {
+  font: 2vw "Rubik Mono One";
+  color: #DAA520;
+}
+
+.header_filter_graph:hover span {
+  color: white;
+}
+
+#filter_header {
+  position: relative;
+  float: left;
+}
+
+#graph_header {
+  position: relative;
+  float: right;
+}
+
+.info_div {
+  position: absolute;
+  right: 7px;
+
+  display: inline-block;
+
+  text-align: center;
+
+  height: 100%;
+  line-height: 48px;
+  width: 400px;
+  min-width: 380px;
+}
+
+#no_result_found {
+  position: relative;
+  text-align: center;
+  left: -10px;
+
+  top: 80px;
+
+  color: #DAA520;
+  font: 30px "Roboto Condensed";
+}

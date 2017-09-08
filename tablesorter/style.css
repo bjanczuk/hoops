@@ -1,0 +1,59 @@
+html { 
+  background: url(./Images/trophy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hoops, .habit, .description {
+	color: #DAA520;
+	position: absolute;
+}
+
+.hoops, .habit {
+	font: 115px "Rubik Mono One";
+}
+
+.hoops {
+    bottom: 5%;
+}
+
+.habit {
+    bottom: -9%;
+    left: 4%;
+}
+
+.description {
+	font: 25px "Krona One";
+	bottom: 1.5%;
+	left: 8%;
+}
+
+.get_started {
+	position: fixed;
+
+	color: #DAA520;
+	width: 22%;
+	height: 9%;
+	border: 8px solid #DAA520;
+	line-height: 9%;
+
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+	bottom: 50%;
+	left: 40%;
+}
+
+.get_started:hover {
+	color: white;
+	border: 8px solid white;
+}
+
+#gs_text {
+	position: relative;
+	font: 200% "Rubik Mono One";
+	bottom: 25%;
+}

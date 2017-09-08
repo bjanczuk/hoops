@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "data-tip",
+        "scope": null,
+        "escapedName": "data-tip",
+        "name": "data-tip",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Bartosz"
+    ]
+  ],
+  "_from": "data-tip@latest",
+  "_id": "data-tip@0.0.52",
+  "_inCache": true,
+  "_location": "/data-tip",
+  "_nodeVersion": "4.1.2",
+  "_npmUser": {
+    "name": "kchan",
+    "email": "kchanzen@gmail.com"
+  },
+  "_npmVersion": "2.14.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "data-tip",
+    "scope": null,
+    "escapedName": "data-tip",
+    "name": "data-tip",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/data-tip/-/data-tip-0.0.52.tgz",
+  "_shasum": "bacaa342e81b5423956dbe5fcbf611c18db02da8",
+  "_shrinkwrap": null,
+  "_spec": "data-tip",
+  "_where": "C:\\Users\\Bartosz",
+  "author": "",
+  "dependencies": {},
+  "description": "<img src=\"http://r5.loli.io/aiYVJb.png\" align=\"right\" width=\"100\">",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.8.0",
+    "babel-core": "^5.8.25",
+    "cssgrace": "^2.0.2",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-serve": "^1.2.0",
+    "gulp-stylus": "^2.1.0",
+    "nib": "^1.1.0",
+    "postcss": "^4.1.16"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "bacaa342e81b5423956dbe5fcbf611c18db02da8",
+    "tarball": "https://registry.npmjs.org/data-tip/-/data-tip-0.0.52.tgz"
+  },
+  "gitHead": "2b9b921f0edeaf7fb39901e4b39e5a93dc27a155",
+  "license": "ISC",
+  "main": "dist/data-tip.css",
+  "maintainers": [
+    {
+      "name": "kchan",
+      "email": "kchanzen@gmail.com"
+    }
+  ],
+  "name": "data-tip",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.52"
+}

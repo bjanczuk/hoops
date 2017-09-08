@@ -1,0 +1,45 @@
+html { 
+  background: url('./404.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+#main_text {
+	position: relative;
+
+	font: 2.5vw "Rubik Mono One";
+	letter-spacing: 0.2vw;
+	line-height: 6vh;
+
+	color: white;
+
+	text-align: center;
+	top: -3vh;
+}
+
+#home_link {
+	position: relative;
+
+	font: 3.5vw "Rubik Mono One";
+	letter-spacing: 0.5vw;
+	color: #DAA520;
+
+	left: 42vw;
+	top: 2vh;
+
+	outline: solid #DAA520;
+	outline-width: 0.4vw;
+	padding-left: 0.5vw;
+}
+
+#home_link:hover {
+	color: white;
+	outline: solid white;
+}

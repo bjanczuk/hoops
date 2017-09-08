@@ -1,0 +1,760 @@
+body {
+	background-color: black;
+	z-index: 0;
+}
+
+select {
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#filter_input_div input[type='text'] {
+  height: 23px;
+  vertical-align: top;
+}
+
+.graph_type_wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.graph_backgrounds {
+	position: absolute;
+	text-align: center;
+	height: 100%;
+
+	z-index: 10;
+}
+
+#four_options {
+	bottom: 0.5%;
+	left: 3vw;
+
+	height: 88vh;
+	width: 94vw;
+
+	border: solid #DAA520;
+	border-width: 5px;
+
+	z-index: 10;
+}
+
+.graph_wrapper {
+	position: absolute;
+	height: 50%;
+	width: 50%;
+
+
+}
+
+#bar_wrapper {
+	left: 0%;
+	top: 50%;
+	height: 49.7%;
+}
+
+#bar_background {
+	height: 100%;
+	width: 100%;
+
+	background-image: url('../Images/Graphs/bar.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 11;
+
+    border-top: solid #DAA520;
+	border-width: 2px;
+}
+
+#scatter_wrapper {
+	left: 50%;
+	top: 0%;
+}
+
+#scatter_background {
+	height: 100%;
+	width: 99.9%;
+	right: -.2%;
+
+	background-image: url('../Images/Graphs/scatter.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 11;
+
+    border-bottom: solid #DAA520;
+	border-width: 2px;
+}
+
+#pie_wrapper {
+	left: 50%;
+	top: 50%;
+}
+
+#pie_background {
+	height: 100%;
+	width: 100%;
+
+	background-image: url('../Images/Graphs/pie.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-left: solid #DAA520;
+	border-width: 2px;
+}
+
+#line_wrapper {
+	left: 0%;
+	top: 0%;
+}
+
+#line_background {
+	height: 100%;
+	width: 100%;
+
+	background-image: url('../Images/Graphs/line.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-right: solid #DAA520;
+	border-width: 2px;
+}
+
+.graph_header {
+	font: 300% "Rubik Mono One";
+	color: black;
+
+	display: none;
+	position: relative;
+	z-index: 15;
+}
+
+#line_header {
+	left: 0%;
+	top: 25%;
+	color: #DAA520;
+}
+
+#bar_header {
+	left: 0%;
+	top: 25%;
+	color: #DAA520;
+}
+
+#scatter_header {
+	left: 0%;
+	top: 25%;
+	color: #DAA520;
+}
+
+#pie_header {
+	left: 0%;
+	top: 30%;
+	color: #DAA520;
+}
+
+.form_wrapper {
+	position: absolute;
+	width: 32%;
+	min-width: 440px;
+	height: 300px;
+
+	left: 34%;
+
+	text-align: center;
+}
+
+#scatter_left_side {
+	position: relative;
+	width: 45%;
+	float: left;
+}
+
+#scatter_right_side {
+	position: relative;
+	width: 45%;
+	float: right;
+}
+
+#line_left_side {
+	position: relative;
+	width: 45%;
+	float: left;
+}
+
+#line_right_side {
+	position: relative;
+	width: 45%;
+	float: right;
+}
+
+#bar_left_side_stat, #bar_left_side_player {
+	position: relative;
+	width: 45%;
+	float: left;
+}
+
+#bar_right_side_stat, #bar_right_side_player {
+	position: relative;
+	width: 45%;
+	float: right;
+}
+
+#pie_left_side {
+	position: relative;
+	width: 45%;
+	float: left;
+	top: -30px;
+}
+
+#pie_right_side {
+	position: relative;
+	width: 45%;
+	float: right;
+	top: -25px;
+}
+
+#scatter_form_wrapper {
+	top: 30%;
+	height: 180px;
+}
+
+#line_form_wrapper {
+	top: 30%;
+	height: 180px;
+}
+
+#bar_form_wrapper_stat, #bar_form_wrapper_player {
+	top: 24%;
+	height: 220px;
+}
+
+#pie_form_wrapper {
+	min-width: 300px;
+	width: 300px;
+	height: 135px;
+	left: 40%;
+	top: 40%;
+}
+
+.input_form {
+	display: none;
+	z-index: 15;
+	position: absolute;
+
+	width: 100%;
+
+	background-color: black;
+	border: solid #DAA520;
+	border-width: 4px;
+	color: white;
+
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#scatter_plus_button {
+	position: relative;
+	height: 2.5vh;
+	top: 80px;
+	margin: 0 auto;
+
+	display: none;
+	z-index: 20;
+}
+
+#line_plus_button {
+	position: relative;
+	height: 2.5vh;
+	top: 80px;
+	margin: 0 auto;
+
+	display: none;
+	z-index: 20;
+}
+
+.bar_season_type, .line_season_type, .scatter_season_type {
+	position: relative;
+	top: 5px;
+}
+
+#bar_plus_button_stat, #bar_plus_button_player {
+	position: relative;
+	height: 2.5vh;
+	top: 80px;
+	margin: 0 auto;
+
+	display: none;
+	z-index: 20;
+}
+
+#bar_plus_button_player {
+	display: inline;
+}
+
+#scatter_form {
+	height: 100%;
+	z-index: 15;
+}
+
+#line_form {
+	height: 100%;
+	z-index: 15;
+}
+
+#bar_form_stat, #bar_form_player {
+	height: 100%;
+	z-index: 15;
+}
+
+#pie_form {
+	height: 100%;
+	z-index: 15;
+	text-align: center;
+}
+
+#pie_form p {
+	font-size: 20px;
+}
+
+.submit_button {
+	position: relative;
+	bottom: -2vh;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+#bar_player_submit_div {
+	position: absolute;
+	top: 175px;
+	display: inline-block;
+
+	width: 50%;
+	left: 25%;
+}
+
+#pie_submit_div {
+	position: absolute;
+	bottom: 3px;
+	display: inline-block;
+
+	width: 50%;
+	left: 24%;
+}
+
+.pie_output {
+	position: relative;
+}
+
+.nonpie_output {
+	width: 75vw;
+	height: 90vh;
+
+	margin-top: 5vh;
+	left: 22vw;
+}
+
+#output {
+	display: inline-block;
+}
+
+#player_info_filter, #season_stats_filter {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+.filter_input_div {
+	position: relative;
+	margin: auto;
+
+	text-align: center;
+
+	background-color: rgba(98, 105, 99, .75);
+	display: none;
+	z-index: 15;
+
+	top: 15px;
+}
+
+#filter_input {
+	display: inline-block;
+}
+
+.hidden_text_inputs {
+	position: absolute;
+
+	left: 25%;
+	top: 200px;
+
+	width: 50%;
+	height: 20vh;
+
+	text-align: center;
+}
+
+.hidden_text_input {
+	position: relative;
+	margin: 0 auto;
+
+	display: none;
+}
+
+#scatter_extra_name_3 {
+	top: -10%;
+}
+
+#scatter_extra_name_4 {
+	top: 0%;
+}
+
+#scatter_extra_name_5 {
+	top: 10%;
+}
+
+#scatter_extra_name_6 {
+	top: 20%;
+}
+
+#scatter_extra_name_7 {
+	top: 30%;
+}
+
+#scatter_extra_name_8 {
+	top: 40%;
+}
+
+#scatter_extra_name_9 {
+	top: 50%;
+}
+
+#scatter_extra_name_10 {
+	top: 60%;
+}
+
+#line_extra_name_3 {
+	top: -10%;
+}
+
+#line_extra_name_4 {
+	top: 0%;
+}
+
+#line_extra_name_5 {
+	top: 10%;
+}
+
+#line_extra_name_6 {
+	top: 20%;
+}
+
+#line_extra_name_7 {
+	top: 30%;
+}
+
+#line_extra_name_8 {
+	top: 40%;
+}
+
+#line_extra_name_9 {
+	top: 50%;
+}
+
+#line_extra_name_10 {
+	top: 60%;
+}
+
+#bar_y_axis_drop_player_3 {
+	top: 11%;
+}
+
+#bar_y_axis_drop_player_4 {
+	top: 13%;
+}
+
+#bar_y_axis_drop_player_5 {
+	top: 15%;
+}
+
+#bar_extra_name_3_stat {
+	top: 15%;
+}
+
+#bar_extra_name_4_stat {
+	top: 25%;
+}
+
+#bar_extra_name_5_stat {
+	top: 35%;
+}
+
+#bar_extra_name_6_stat {
+	top: 45%;
+}
+
+#bar_extra_name_7_stat {
+	top: 55%;
+}
+
+#bar_extra_name_8_stat {
+	top: 65%;
+}
+
+#bar_extra_name_9_stat {
+	top: 75%;
+}
+
+#bar_extra_name_10_stat{
+	top: 85%;
+}
+
+#scatter_x_axis_label, #scatter_y_axis_label {
+	color: white;
+}
+
+#scatter_x_axis_label, #scatter_x_axis_drop {
+	position: relative;
+	float: right;
+}
+
+#scatter_x_axis_drop {
+	position: absolute;
+	right: 0%;
+}
+
+#scatter_y_axis_label, #scatter_y_axis_drop {
+	position: relative;
+	float: left;
+}
+
+#scatter_y_axis_drop {
+	position: absolute;
+	left: 0%;
+}
+
+#line_x_axis_label, #line_y_axis_label {
+	color: white;
+}
+
+#line_x_axis_label, #line_x_axis_drop {
+	position: relative;
+	float: right;
+}
+
+#line_x_axis_drop {
+	position: absolute;
+	right: 0%;
+}
+
+#line_y_axis_label, #line_y_axis_drop {
+	position: relative;
+	float: left;
+}
+
+#line_y_axis_drop {
+	position: absolute;
+	left: 0%;
+}
+
+#bar_x_axis_label_stat, #bar_x_axis_label_player, #bar_y_axis_label_stat, #bar_y_axis_label_player {
+	color: white;
+}
+
+#bar_x_axis_label_stat, #bar_x_axis_label_player, #bar_x_axis_drop_stat, #bar_x_axis_drop_player {
+	position: relative;
+	float: right;
+}
+
+#bar_x_axis_drop_stat, #bar_x_axis_drop_player {
+	position: absolute;
+	right: 0%;
+}
+
+#bar_y_axis_label_stat, #bar_y_axis_label_player, #bar_y_axis_drop_stat, #bar_extra_name_1_player {
+	position: relative;
+	float: left;
+}
+
+#bar_extra_name_1_player {
+	top: -18px;
+}
+
+#bar_y_axis_drop_player_2 {
+	position: relative;
+	top: -20px;
+}
+
+#bar_y_axis_drop_stat, #bar_y_axis_drop_player {
+	position: absolute;
+	left: 0%;
+}
+
+#pie_group_label, #pie_breakdown_label {
+	color: white;
+}
+
+#pie_group_label {
+	position: relative;
+	float: right;
+
+	padding-top: 3px;
+}
+
+#pie_breakdown_label {
+	position: absolute;
+	right: 0%;
+
+	padding-top: 20px;
+}
+
+#pie_group_drop, #pie_breakdown_drop {
+	position: relative;
+	float: left;
+}
+
+#pie_team_drop {
+	position: absolute;
+	top: 55px;
+	display: none;
+}
+
+#pie_break {
+	display: none;
+}
+
+#line_extra_name_1, #bar_extra_name_1_stat, #bar_y_axis_drop_player_1, #scatter_extra_name_1 {
+	margin-top: 12%;
+	float: right;
+	right: 0%;
+}
+
+#line_extra_name_2, #bar_extra_name_2_stat, #bar_y_axis_drop_player_2, #scatter_extra_name_2 {
+	margin-top: 12%;
+	float: left;
+	left: 0%;
+}
+
+#scatter_drops {
+	position: relative;
+	left: 0%;
+}
+
+#line_drops {
+	position: relative;
+	left: 0%;
+}
+
+#bar_drops_stat, #bar_drops_player {
+	position: relative;
+	left: 0%;
+}
+
+#pie_drops {
+	position: relative;
+	left: 0%;
+	top: 10px;
+}
+
+#find_every_player {
+  position: absolute;
+  left: 8%;
+  top: -3%;
+  font: 38px "Rubik Mono One";
+}
+
+#player_info_filter {
+  position: relative;
+  width: 500px;
+  min-width: 400px;
+
+  float: left;
+  left: 25px;
+  top: 70px;
+  text-align: left;
+
+  margin-bottom: 8.5vh;
+}
+
+#season_stats_filter {
+  position: relative;
+  width: 600px;
+  min-width: 600px;
+
+  float: right;
+  right: -30px;
+  top: 30px;
+
+  margin-right: 1vw;
+  margin-bottom: 8.5vh;
+}
+
+#confirm_button {
+  position: absolute;
+  left: 46.7%;
+  bottom: .5%;
+}
+
+.copied_filter_data {
+	display: none;
+}
+
+.exit_button {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	height: 12px;
+	z-index: 15;
+}
+
+#bar_radio_div_stat, #bar_radio_div_player {
+	display: inline-block;
+	border-bottom: solid #DAA520;
+	border-width: 0.5px;
+}
+
+.graph_again_div {
+	position: absolute;
+	top: 5px;
+
+	width: 300px;
+	text-align: center;
+}
+
+.graph_again_div a {
+	text-decoration: none;
+}
+
+.graph_again {
+	color: #DAA520;
+}
+
+.graph_again:hover {
+	text-decoration: underline;
+}
+
+#alert_div {
+	width: 100vw;
+	text-align: center;
+}
+
+#no_graph_alert {
+	position: relative;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #DAA520;
+}
+
+#new_tab_data {
+	display: none;
+}
+
+#filter_new_tab {
+	position: absolute;
+	z-index: 1000;
+	top: 30px;
+}
+
+#unique_break {
+  line-height: 50px;
+}
+
+#filter_breakdown_drop {
+	display: none;
+}
+
